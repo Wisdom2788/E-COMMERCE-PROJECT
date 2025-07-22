@@ -1,4 +1,4 @@
-
+import heroImg from "../assets/hero.jpg";
 
 function Home() {
     return (
@@ -10,23 +10,27 @@ function Home() {
                 <p className="text-gray-600 mt-4 mb-8 max-w-wd">
                     Browse through our diverse range of meticulously crafted garments, designed <br/> to bring out your individuality and cater to youer sense of style.
                 </p>
-                <button className="bg-black rounded-full text-white py-4 px-8">
+                <button className="bg-black rounded-full text-white py-4 px-8 font-bold text-lg hover:bg-gray-900 transition mb-8">
                     Shop Now
                 </button>
                 <div className="flex space-x-8">
                     <div>
-                        <div className="text-2xl font-bold text">200+</div>
+                        <div className="text-2xl font-bold text-black">200+</div>
                         <div className="text-gray-600">International Brands</div>
                     </div>
                     <div>
-                        <div>2000+</div>
-                        <div>High-Quality Products</div>
+                        <div className="text-2xl font-bold">2000+</div>
+                        <div classNmae="text-gray-600">High-Quality Products</div>
                     </div>
                     <div>
-                        <div>30000+</div>
-                        <div>Happy Customers</div>
+                        <div className="text-2xl font-bold text-black">30000+</div>
+                        <div className="tect-gray-600">Happy Customers</div>
                     </div>
                 </div>
+            </div>
+
+            <div className="flex-1 flex justify-center">
+                <img src={heroImg} alt="hero" className="w-full max-w-md rounded-xl object-cover"/>
             </div>
         </section>
     );

@@ -26,7 +26,7 @@ function Navbar() {
       {/* Main Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-center items-center h-16">
             {/* Logo */}
             <Link to="/" className="font-bold text-2xl text-black">
               SHOP.CO
@@ -61,7 +61,7 @@ function Navbar() {
             </div>
 
             {/* User Icons */}
-            <div className="flex items-center space-x-8">
+            <div className="flex items-center space-x-8 text-2xl">
               <Link to="/cart" className="relative">
                 <HiOutlineShoppingCart />
               </Link>

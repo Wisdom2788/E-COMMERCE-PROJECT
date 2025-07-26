@@ -6,11 +6,25 @@ const reviews = [
     name: "Wisdom U. ✅",
     message: "This is such an excellent product"
   },
+
   {
     star: "⭐⭐",
     name: "Emmanuel U. ✅",
     message: "Fair enough"
   },
+
+  {
+    star: "⭐⭐⭐⭐⭐",
+    name: "Sarah M. ✅",
+    message: "Amazing quality and fast delivery!"
+  },
+
+  {
+    star: "⭐⭐⭐⭐⭐",
+    name: "Sarah M. ✅",
+    message: "Amazing quality and fast delivery!"
+  },
+
   {
     star: "⭐⭐⭐⭐⭐",
     name: "Sarah M. ✅",

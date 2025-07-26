@@ -13,7 +13,11 @@ function ProductCard({ product }) {
         {product.discountPercentage > 0 && (
           <div className="text-red-500 text-xs mt-1">-{product.discountPercentage}%</div>
         )}
-        
+
+        <div className="py-3">
+        <button className="bg-black text-white rounded-full px-3 py-2 hover:bg-red-700">Add to Cart</button>
+        </div>
+
       </div>
     );
   }

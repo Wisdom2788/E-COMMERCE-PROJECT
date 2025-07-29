@@ -42,8 +42,8 @@ function Navbar() {
                 {/* Dropdown menu would go here */}
               </div>
               <Link to="/sale" className="hover:text-gray-600">On Sale</Link>
-              <Link to="/new-arrivals" className="hover:text-gray-600">New Arrivals</Link>
-              <Link to="/brands" className="hover:text-gray-600">Brands</Link>
+              <a href="#newArrivals" className="hover:text-gray-600">New Arrivals</a>
+              <a href="#brands" className="hover:text-gray-600">Brands</a>
             </div>
 
             {/* Search Bar */}

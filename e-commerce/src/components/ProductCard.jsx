@@ -1,12 +1,16 @@
+import {Link} from "react-router";
+
 function ProductCard({ product }) {
     return (
-      <div className="bg-white rounded-xl shadow-xl p-4 flex flex-col items-center">
+      <Link to={`/product/${product.id}`}>
+          <div className="bg-white rounded-xl shadow-xl p-4 flex flex-col items-center">
         <img src={product.thumbnail} alt={product.title} className="w-40 h-40 object-contain mb-4" />
         <div className="font-semibold text-lg mb-2">{product.title}</div>
         <div className="flex items-center mb-2">
           {/* Render stars based on product.rating */}
-          <span className="text-yellow-400 mr-1">★</span>
-          <span className="text-gray-600 text-sm">{product.rating}/5</span>
+          <p className="text-yellow-500 text-sm">
+          {"★".repeat(Math.round(product.rating))}
+        </p>
         </div>
         <div className="font-bold text-xl">${product.price}</div>
         {/* Optionally show discount badge if product.discountPercentage */}
@@ -15,10 +19,11 @@ function ProductCard({ product }) {
         )}
 
         <div className="py-3">
-        <button className="bg-black text-white rounded-full px-3 py-2 hover:bg-red-700">Add to Cart</button>
+          <button className="bg-black text-white rounded-full px-3 py-2 hover:bg-red-700">Add to Cart</button>
         </div>
 
       </div>
+      </Link>
     );
   }
   

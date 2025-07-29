@@ -36,16 +36,16 @@ function Footer() {
                 We have clothes that suits your style and which you're proud to wear. From women to men.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
+                <a href="https://x.com/Wisdom2788i" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
                   <FaTwitter />
                 </a>
-                <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
+                <a href="https://www.facebook.com/wisdom.uzoma.52/" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
                   <FaFacebook />
                 </a>
-                <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
+                <a href="https://www.instagram.com/iam_wisdom_uzoma2788/" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
                   <FaInstagram />
                 </a>
-                <a href="#" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
+                <a href="https://github.com/Wisdom2788" className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white">
                   <FaGithub />
                 </a>
               </div>
